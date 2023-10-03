@@ -1,0 +1,39 @@
+* {
+    background-color: darkgrey;
+}
+
+.listItems {
+    color: whitesmoke;
+}
+
+h3, h1 {
+    color: rgb(152, 216, 255);
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#happy {
+    width: 200px;
+    height: 220px;
+}
+
+#sad {
+    width: 320px;
+    height: 220px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+a {
+    color: red;
+    font-weight: bolder;
+}
