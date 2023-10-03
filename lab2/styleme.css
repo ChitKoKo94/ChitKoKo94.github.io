@@ -36,4 +36,18 @@ h3 {
 a {
     color: red;
     font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div::first-letter,
+li::first-letter {
+    font-size: 160%;
+}
+
+.dtTitle {
+    color: yellow;
 }
