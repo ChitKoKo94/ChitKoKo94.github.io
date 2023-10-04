@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="navbar">
+        <ul id="leftItems">
+            <li>
+                <img id="miuLogo" src="./images/miu.png" alt="">
+            </li> 
+            <li>
+                <span id="miuIt">Maharishi University IT Dept</span>
+            </li>
+        </ul>
+        <ul id="rightItems">
+            <li><a href="http://www.google.com" target="_blank">Agent Portal</a></li>
+            <li><a href="http://www.google.com" target="_blank">Submit Ticket</a></li>
+            <li><a href="http://www.google.com" target="_blank">Knowledge Base</a></li>
+            <li><a href="http://www.google.com" target="_blank">Login</a></li>
+        </ul>
+
+    </div>
+    <div id="welcome">
+        <p>Welcome to our Support Center</p>
+    </div>
+    <div id="grid_container">
+        <div id="left_grid">
+            <h1 class="labels">Login</h1>
+            <p class="labels">
+                Log in to know the status of the ticket
+            </p>
+            <div id="photo_wapper">
+                <a href="http://www.google.com">
+                    <img id="azurephoto" src="./images/azure.png" alt="">
+                </a>
+            </div>
+            <br>
+            <p id="line">or login using</p>
+            <br>
+            <form action="#">
+                <div class="labels">
+                    <label for="username">Username or Email</label><br>
+                    <input class="same_input" id="username" type="text" 
+                        placeholder="Enter Email"><br>
+                </div>     
+                <div class="labels">
+                    <label for="password">Password</label><br>
+                    <input class="same_input" id="password" 
+                        type="password" placeholder="Enter Password">
+                </div>
+
+                <div class="labels">
+                    <input type="checkbox">
+                    <label>Remember me</label>
+                    <a id="forgot_pw" href="#">Forgot password?</a>
+                </div>
+
+                <button id="login_button">Login</button>
+            </form>
+        </div>
+        <div id="right_grid">
+            <p>
+                Log in to track your existing support requests, if you have not created yet, then you would need to 
+                <a id="register" href="#">register</a> or 
+                <a id="newticket" href="#">create a new ticket</a> to begin.
+            </p>
+            <button id="submit_btn">Submit ticket</button>
+        </div>
+    </div>
+    <footer>
+        <a href ="https://validator.w3.org/check?url=https://ChitKoKo.github.io/lab3/index.html">
+            <img src="https://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Valid HTML!">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://ChitKoKo.github.io/lab3/css/style.css">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+        </a> 
+        <span id="copy">Copyrights 2020, All rights reserved.</span>
+    </footer>
+</body>
+</html>
