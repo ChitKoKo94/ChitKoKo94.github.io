@@ -1,0 +1,18 @@
+.custom-bg-blue {
+    background-color : rgb(72, 203, 255); /* Light blue color */
+}
+
+.welcome {
+    margin-right: 10px;
+}
+
+.custom-float {
+    display: inline;
+    float: right !important;
+}
+
+.leftline {
+    border-left: 2px solid white;
+    margin-left: 12px;
+    padding-left: 10px;
+}
