@@ -113,8 +113,7 @@ console.log(' ');
 // 9.
 const printOddNumbersOnly = numbers => {
     numbers.forEach(num => {
-        console.log('num ' + num);
-        // if (num % 2 !== 0) console.log(num);
+        if (num % 2 !== 0) console.log(num);
     });
 };
 console.log('9.');
