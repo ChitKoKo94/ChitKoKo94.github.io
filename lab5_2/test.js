@@ -4,15 +4,15 @@ describe("LIBRARY", function () {
             { title: "Java", author: "Someone", libraryID: 999 }
         );
     });
-
-    it ("getTitles", function () {
+    
+    it ("getTitles", function () { 
         assert.deepEqual(getTitles(), 
             [ 
-                "The Road Ahead", 
-                "Walter Isaacson" , 
-                "The Road Ahead", 
+                "Java",
                 "Mockingjay: The Final Book of The Hunger Games", 
-                "Java"
+                "The Road Ahead", 
+                "The Road Ahead", 
+                "Walter Isaacson"
             ]
         );
     });

@@ -8,7 +8,7 @@ let libraryBooks = [
 ];
 
 const addBook = (title, author, libraryID) => {
-    let book = {
+    const book = {
         title,
         author,
         libraryID
@@ -17,12 +17,15 @@ const addBook = (title, author, libraryID) => {
     return book;
 }
 
-const getTitles = () => 
-    libraryBooks.map(book => book.title);
+const getTitles = () => {
+    return libraryBooks
+        .map(book => book.title)
+        .sort((title1, title2) => title1.localeCompare(title2));
+};
 
 const findBooks = keyword => libraryBooks
         .filter(book => book.title.includes(keyword))
-        .sort(book1 =>  book1.author);
+        .sort((book1, book2) =>  book1.author.localeCompare(book2.author));
 
 
 
