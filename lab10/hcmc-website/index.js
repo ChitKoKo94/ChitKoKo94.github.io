@@ -10,7 +10,7 @@ function Patient (id, firstName, middleName, lastName, birthDate, department, ou
 
 window.onload = () => {
     let patientData = [];
-    //document.getElementById('dateOfBirth').placeholder("MM/DD/YYYY");
+
     const loadData = (data) => {
         const tbody = document.getElementById('tbodyPatientsList');
         tbody.innerHTML = '';
@@ -31,7 +31,7 @@ window.onload = () => {
         });
     };
 
-    document.getElementById('btnRegisterPatient').addEventListener('click', event => {
+    document.getElementById('myForm').addEventListener('submit', event => {
         event.preventDefault();
         let formData = new Patient(
             document.getElementById('patientIdNumber').value, 
